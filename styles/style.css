@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto";
+    color: white;
+}
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+.hero__wrapper {
+    margin-top:  10px;
+}
+.hero__lists {
+    list-style-type: none;
+    display: flex;
+}
+.hero__lists .hero__lists-item {
+    background-color: orange;
+    padding: 60px 30px 50px 30px;
+    margin-right: 10px;
+}
+.hero__lists .hero__lists-item:nth-child(2) {
+    background-color: aqua;
+}
+.hero__lists .hero__lists-item:nth-child(3) {
+    background-color: blue;
+}
+.hero__lists .hero__lists-item:nth-child(4) {
+    background-color: grey;
+}
+.hero__lists-item h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.hero__lists-item p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.hero__lists-item .number h1 {
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+.text .item__text {
+    display: flex;
+    margin-bottom: 20px;
+}
+.hero__lists-item .link {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 45px;
+    position: relative;
+    top: 15px;
+}
+.hero__lists-item .link:hover {
+    color: black;
+    border: 2px solid green;
+}
